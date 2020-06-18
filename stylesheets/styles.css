@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(74, 144, 226);
+    background-color: rgb(118, 164, 218);
+   /* background-color: rgb(74, 144, 226); */
 }
 
 #logo {
     height: 150px;
     width: 150px;
-    border-style: solid;
-    border-color: darkgrey;
-    border-width: 5px;
+    /*border-style: solid;
+    /*border-color: rgb(56, 56, 56); */
+   /* border-width: 5px; */
     border-radius: 100px;
     margin-bottom: -40px; 
     margin-top: 40px;
