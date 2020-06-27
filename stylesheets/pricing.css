@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(118, 164, 218);
+   /* background-color: rgb(74, 144, 226); */
+}
+
+.row  {
+    justify-content: center;
+    align-content: center;
+}

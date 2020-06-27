@@ -27,6 +27,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="pricing">
+            <a class="nav-link" href="pricing.html" style="color: white">Pricing</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html" style="color: white">Home</a>
           </li>
@@ -42,65 +45,136 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" id="main-container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="mt-5" id="app-name"> About OnTop</h1>
+        <h1 class="mt-5" id="about-title"> About OnTop</h1>
         <p class="lead" id="ontop-statement">OnTop is a mobile application designed to make club 
           communication between leaders and members accessible, easy, and straightforward. </p>
-        <div class="col-lg-12 text-left" id="admin-instructions"> 
-          <h1 class="mt-5" id="app-name">For Adminstrators</h1>
-          <p class="lead">Type intro text here</p>
-          <h2 class="mt-5">Getting Started</h2>
-          <ol class="list-unstyled">
-          <li>
-            Downlaod OnTop instructions <!--tell to download; add image of app store-->
-          </li>
-          <li>
-            Sign-up instructions <!--explain how & why; add pictures/demo of clicking on sign-up and filling in info-->
-          </li>
-          <li>
-            Managing clubs instructions <!--pics/demo of approving clubs & monitoring pages-->
-          </li> 
-         </ol>
-        </div>
+          <h2 class="mt-5" >How To Get the App</h2>
+          <p class="lead" id="download-instructions">OnTop is currently available on the Google Play Store and will soon be released to the Apple App Store. Search "ontop" in your 
+            respective app store and download it.
+          </p>
+        
       </div>
 
       <div class="container">
        <div class="card-deck mb-3 text-center">
 
         <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="mt-5">Boop</h4>
+          <div class="card-header" style="height:70px">
+            <h4 class="card-titles">Adminstrator</h4>
           </div>
 
           <div class="card-body">
-            jdngsiudfugfdjg
+            <p class="lead">Create a school account and approve clubs</p>
+            <!--<h4 class="my-0 font-weight-normal">Click here for information</h4>-->
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick= "location.href= '#admin_link'">Learn More</button>
           </div>
         </div>
 
        
         <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="mt-5">Boop</h4>
+          <div class="card-header" style="height:70px" >
+            <h4 class="card-titles">Club Leader</h4>
           </div>
 
           <div class="card-body">
-            jdngsiudfugfdjg
+            <p class="lead">Create a club account and start posting</p>
+            <!--<h4 class="my-0 font-weight-normal">Click here for information</h4> -->
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick= "location.href= '#club_leaders_link'">Learn More</button>
           </div>
         </div>
 
         <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="mt-5">Boop</h4>
+          <div class="card-header" style="height:70px">
+            <h4 class="card-titles">Club Member</h4>
           </div>
 
           <div class="card-body">
-            jdngsiudfugfdjg
+            <p class="lead">Connect to your school and start finding clubs</p>
+           <!-- <h4 class="my-0 font-weight-normal">Click here for information</h4> -->
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick= "location.href= '#club_members_link'">Learn More</button>
           </div>
         </div>
 
        </div>
+      </div>
+
+      <div class="col-lg-12 text-left" id="admin-instructions"> 
+        <h1 class="mt-5" id="admin_link">For Adminstrators</h1>
+        <p class="lead">OnTop allows you to stay informed on the clubs that exist within your school 
+          while also leaving scheduling and management duties to students. 
+          <br></br>
+          Once you enroll your school, 
+          clubs send requests to be within the school and provide you with a description and their contact 
+          information. You can also send out an invitation to club leaders or supervisors so that when those email accounts register on our app, they will automatically be registered in your school.
+          You can approve or deny requests, and once a club is approved, you can view it in a 
+          schoolwide directory to monitor its announcements and events. 
+          <br></br>
+          At any time, you can delete an existing club 
+          if you deem that its activities are not school-appropriate. Students have the ability to report clubs, and you will be able to view the cause of reportation and either reach out 
+          to the club leader involved or delete the club. OnTop uses a secure database to protect all data on the app.
+
+        </p>
+        <h2 class="mt-5">Getting Started</h2>
+        <ol class="list-unstyled">
+        
+        <li>
+          Sign-up instructions <!--explain how & why; add pictures/demo of clicking on sign-up and filling in info-->
+        </li>
+        <li>
+          Managing clubs instructions <!--pics/demo of approving clubs & monitoring pages-->
+        </li> 
+       </ol>
+      </div>
+
+      <div class="col-lg-12 text-left"> 
+        <h1 class="mt-5" id="club_leaders_link">For Club Leaders</h1>
+        <p class="lead">OnTop is an app that allows you to communicate effectively to all your club members while also pulling in non-members. 
+           <br></br>
+          You can schedule events, which automatically show up on club members’ calendars. There’s no need to send out weekly reminders 
+          for meetings, either - once you pick a day of the week, our app creates a recurring event on members’ 
+          calendars. You can also post announcements on your club page, as well as photos, contact information, and a short summary of your club.
+          <br></br>
+          OnTop also helps you reach a wider audience by listing your club in a schoolwide directory for 
+          everyone to see. With the premium version of the app (paid through the school), you can also view valuable insights into how your club page is being used by students.</p>
+        <h2 class="mt-5">Getting Started</h2>
+        <ol class="list-unstyled">
+        
+        <li>
+          Sign-up instructions <!--explain how & why; add pictures/demo of clicking on sign-up and filling in info-->
+        </li>
+        <li>
+          Managing account instructions <!--pics/demo of approving clubs & monitoring pages-->
+        </li> 
+       </ol>
+      </div>
+
+      <div class="col-lg-12 text-left" id="admin-instructions"> 
+        <h1 class="mt-5" id="club_members_link">For Club Members</h1>
+        <p class="lead">OnTop allows you to keep track of all your scheduled activities with an easy-to-use interface. 
+          You have access to a calendar, a directory of all clubs within your school, and club pages of the clubs you've subscribed to.
+        
+          <br></br>
+          Subscribing to a club is easy - there are no join codes, and once you subscribe, all events from the club will show up on your calendar.
+          Look in the "My Clubs" section of your account to see your subscribed clubs and go to their club page. There you can find announcements, photos, and contact information. 
+          If you are in multiple clubs, you can color code events to easily distinguish between clubs. 
+          You can choose to enable notifications that remind you of upcoming events or tell you when a club has posted an announcement. 
+          <br></br>
+          If you see something malicious or suspicious happening on a club page, click the report button in the top right hand corner of that club page and type your reasoning. Your administrator 
+          will have the ability to address the issue.
+        </p>
+        <h2 class="mt-5">Getting Started</h2>
+        <ol class="list-unstyled">
+        
+        <li>
+          Sign-up instructions <!--explain how & why; add pictures/demo of clicking on sign-up and filling in info-->
+        </li>
+        <li>
+          Managing clubs instructions<!--pics/demo of approving clubs & monitoring pages-->
+        </li> 
+       </ol>
       </div>
 
     </div>
